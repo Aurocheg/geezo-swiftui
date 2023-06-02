@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE2917A42A2727C200A5C6AA /* GeezoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2917A32A2727C200A5C6AA /* GeezoApp.swift */; };
+		DE2917A62A2727C200A5C6AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2917A52A2727C200A5C6AA /* ContentView.swift */; };
+		DE2917A82A2727C300A5C6AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2917A72A2727C300A5C6AA /* Assets.xcassets */; };
+		DE2917AB2A2727C300A5C6AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2917AA2A2727C300A5C6AA /* Preview Assets.xcassets */; };
+		DE2917AD2A2727C300A5C6AA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2917AC2A2727C300A5C6AA /* Persistence.swift */; };
+		DE2917B02A2727C300A5C6AA /* Geezo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE2917AE2A2727C300A5C6AA /* Geezo.xcdatamodeld */; };
+		DE2917BA2A2727C300A5C6AA /* GeezoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2917B92A2727C300A5C6AA /* GeezoTests.swift */; };
+		DE2917C42A2727C300A5C6AA /* GeezoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2917C32A2727C300A5C6AA /* GeezoUITests.swift */; };
+		DE2917C62A2727C300A5C6AA /* GeezoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2917C52A2727C300A5C6AA /* GeezoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE2917B62A2727C300A5C6AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE2917982A2727C200A5C6AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE29179F2A2727C200A5C6AA;
+			remoteInfo = Geezo;
+		};
+		DE2917C02A2727C300A5C6AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE2917982A2727C200A5C6AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE29179F2A2727C200A5C6AA;
+			remoteInfo = Geezo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE2917A02A2727C200A5C6AA /* Geezo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geezo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2917A32A2727C200A5C6AA /* GeezoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeezoApp.swift; sourceTree = "<group>"; };
+		DE2917A52A2727C200A5C6AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE2917A72A2727C300A5C6AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE2917AA2A2727C300A5C6AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE2917AC2A2727C300A5C6AA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		DE2917AF2A2727C300A5C6AA /* Geezo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Geezo.xcdatamodel; sourceTree = "<group>"; };
+		DE2917B52A2727C300A5C6AA /* GeezoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeezoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2917B92A2727C300A5C6AA /* GeezoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeezoTests.swift; sourceTree = "<group>"; };
+		DE2917BF2A2727C300A5C6AA /* GeezoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeezoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2917C32A2727C300A5C6AA /* GeezoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeezoUITests.swift; sourceTree = "<group>"; };
+		DE2917C52A2727C300A5C6AA /* GeezoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeezoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE29179D2A2727C200A5C6AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2917B22A2727C300A5C6AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2917BC2A2727C300A5C6AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE2917972A2727C200A5C6AA = {
+			isa = PBXGroup;
+			children = (
+				DE2917A22A2727C200A5C6AA /* Geezo */,
+				DE2917B82A2727C300A5C6AA /* GeezoTests */,
+				DE2917C22A2727C300A5C6AA /* GeezoUITests */,
+				DE2917A12A2727C200A5C6AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE2917A12A2727C200A5C6AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE2917A02A2727C200A5C6AA /* Geezo.app */,
+				DE2917B52A2727C300A5C6AA /* GeezoTests.xctest */,
+				DE2917BF2A2727C300A5C6AA /* GeezoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE2917A22A2727C200A5C6AA /* Geezo */ = {
+			isa = PBXGroup;
+			children = (
+				DE2917A32A2727C200A5C6AA /* GeezoApp.swift */,
+				DE2917A52A2727C200A5C6AA /* ContentView.swift */,
+				DE2917A72A2727C300A5C6AA /* Assets.xcassets */,
+				DE2917AC2A2727C300A5C6AA /* Persistence.swift */,
+				DE2917AE2A2727C300A5C6AA /* Geezo.xcdatamodeld */,
+				DE2917A92A2727C300A5C6AA /* Preview Content */,
+			);
+			path = Geezo;
+			sourceTree = "<group>";
+		};
+		DE2917A92A2727C300A5C6AA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE2917AA2A2727C300A5C6AA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE2917B82A2727C300A5C6AA /* GeezoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE2917B92A2727C300A5C6AA /* GeezoTests.swift */,
+			);
+			path = GeezoTests;
+			sourceTree = "<group>";
+		};
+		DE2917C22A2727C300A5C6AA /* GeezoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE2917C32A2727C300A5C6AA /* GeezoUITests.swift */,
+				DE2917C52A2727C300A5C6AA /* GeezoUITestsLaunchTests.swift */,
+			);
+			path = GeezoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE29179F2A2727C200A5C6AA /* Geezo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2917C92A2727C300A5C6AA /* Build configuration list for PBXNativeTarget "Geezo" */;
+			buildPhases = (
+				DE29179C2A2727C200A5C6AA /* Sources */,
+				DE29179D2A2727C200A5C6AA /* Frameworks */,
+				DE29179E2A2727C200A5C6AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Geezo;
+			productName = Geezo;
+			productReference = DE2917A02A2727C200A5C6AA /* Geezo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE2917B42A2727C300A5C6AA /* GeezoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2917CC2A2727C300A5C6AA /* Build configuration list for PBXNativeTarget "GeezoTests" */;
+			buildPhases = (
+				DE2917B12A2727C300A5C6AA /* Sources */,
+				DE2917B22A2727C300A5C6AA /* Frameworks */,
+				DE2917B32A2727C300A5C6AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE2917B72A2727C300A5C6AA /* PBXTargetDependency */,
+			);
+			name = GeezoTests;
+			productName = GeezoTests;
+			productReference = DE2917B52A2727C300A5C6AA /* GeezoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE2917BE2A2727C300A5C6AA /* GeezoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2917CF2A2727C300A5C6AA /* Build configuration list for PBXNativeTarget "GeezoUITests" */;
+			buildPhases = (
+				DE2917BB2A2727C300A5C6AA /* Sources */,
+				DE2917BC2A2727C300A5C6AA /* Frameworks */,
+				DE2917BD2A2727C300A5C6AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE2917C12A2727C300A5C6AA /* PBXTargetDependency */,
+			);
+			name = GeezoUITests;
+			productName = GeezoUITests;
+			productReference = DE2917BF2A2727C300A5C6AA /* GeezoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE2917982A2727C200A5C6AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DE29179F2A2727C200A5C6AA = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					DE2917B42A2727C300A5C6AA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = DE29179F2A2727C200A5C6AA;
+					};
+					DE2917BE2A2727C300A5C6AA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = DE29179F2A2727C200A5C6AA;
+					};
+				};
+			};
+			buildConfigurationList = DE29179B2A2727C200A5C6AA /* Build configuration list for PBXProject "Geezo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE2917972A2727C200A5C6AA;
+			productRefGroup = DE2917A12A2727C200A5C6AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE29179F2A2727C200A5C6AA /* Geezo */,
+				DE2917B42A2727C300A5C6AA /* GeezoTests */,
+				DE2917BE2A2727C300A5C6AA /* GeezoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE29179E2A2727C200A5C6AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2917AB2A2727C300A5C6AA /* Preview Assets.xcassets in Resources */,
+				DE2917A82A2727C300A5C6AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2917B32A2727C300A5C6AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2917BD2A2727C300A5C6AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE29179C2A2727C200A5C6AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2917B02A2727C300A5C6AA /* Geezo.xcdatamodeld in Sources */,
+				DE2917AD2A2727C300A5C6AA /* Persistence.swift in Sources */,
+				DE2917A62A2727C200A5C6AA /* ContentView.swift in Sources */,
+				DE2917A42A2727C200A5C6AA /* GeezoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2917B12A2727C300A5C6AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2917BA2A2727C300A5C6AA /* GeezoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2917BB2A2727C300A5C6AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2917C42A2727C300A5C6AA /* GeezoUITests.swift in Sources */,
+				DE2917C62A2727C300A5C6AA /* GeezoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE2917B72A2727C300A5C6AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE29179F2A2727C200A5C6AA /* Geezo */;
+			targetProxy = DE2917B62A2727C300A5C6AA /* PBXContainerItemProxy */;
+		};
+		DE2917C12A2727C300A5C6AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE29179F2A2727C200A5C6AA /* Geezo */;
+			targetProxy = DE2917C02A2727C300A5C6AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE2917C72A2727C300A5C6AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE2917C82A2727C300A5C6AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE2917CA2A2727C300A5C6AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Geezo/Preview Content\"";
+				DEVELOPMENT_TEAM = A8U85SKFPU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aurocheg.Geezo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE2917CB2A2727C300A5C6AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Geezo/Preview Content\"";
+				DEVELOPMENT_TEAM = A8U85SKFPU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aurocheg.Geezo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE2917CD2A2727C300A5C6AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8U85SKFPU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aurocheg.GeezoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geezo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Geezo";
+			};
+			name = Debug;
+		};
+		DE2917CE2A2727C300A5C6AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8U85SKFPU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aurocheg.GeezoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geezo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Geezo";
+			};
+			name = Release;
+		};
+		DE2917D02A2727C300A5C6AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8U85SKFPU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aurocheg.GeezoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Geezo;
+			};
+			name = Debug;
+		};
+		DE2917D12A2727C300A5C6AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8U85SKFPU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aurocheg.GeezoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Geezo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE29179B2A2727C200A5C6AA /* Build configuration list for PBXProject "Geezo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2917C72A2727C300A5C6AA /* Debug */,
+				DE2917C82A2727C300A5C6AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE2917C92A2727C300A5C6AA /* Build configuration list for PBXNativeTarget "Geezo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2917CA2A2727C300A5C6AA /* Debug */,
+				DE2917CB2A2727C300A5C6AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE2917CC2A2727C300A5C6AA /* Build configuration list for PBXNativeTarget "GeezoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2917CD2A2727C300A5C6AA /* Debug */,
+				DE2917CE2A2727C300A5C6AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE2917CF2A2727C300A5C6AA /* Build configuration list for PBXNativeTarget "GeezoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2917D02A2727C300A5C6AA /* Debug */,
+				DE2917D12A2727C300A5C6AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DE2917AE2A2727C300A5C6AA /* Geezo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DE2917AF2A2727C300A5C6AA /* Geezo.xcdatamodel */,
+			);
+			currentVersion = DE2917AF2A2727C300A5C6AA /* Geezo.xcdatamodel */;
+			path = Geezo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DE2917982A2727C200A5C6AA /* Project object */;
+}
